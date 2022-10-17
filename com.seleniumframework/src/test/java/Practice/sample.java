@@ -21,8 +21,7 @@ public class sample {
 		String UserName=pro.getProperty("un");
 		String Password=pro.getProperty("pw");
 		driver.get(URL);
-		
-		
+		driver.quit();
 
 	}
 
